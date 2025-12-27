@@ -1,0 +1,32 @@
+body{
+    background-image: url(/Dinosaur\ background.jpg);
+}
+p{
+    color: aliceblue;
+    font-size: 30px;
+}
+a{
+    background-color: #4ade80;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+a:hover{
+    background-color: black;
+    color: #4ade80;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+.container img{
+    width: 300px;
+    height: 250px;
+}
+.container li{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: left;
+}

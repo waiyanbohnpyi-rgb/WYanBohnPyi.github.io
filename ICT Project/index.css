@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+  background-color: #17105a;
+  background-image: url(/Dinosaur\ background.jpg);
+  font-family: sans-serif;
+}
+
+.header_container{
+  background-color: #e8e4d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  border-radius: 25px;
+}
+
+.logo_area{
+  display: flex;
+  align-items: center;
+  color: #1a2e35;
+}
+
+.logo_icon{
+  width: 55px;
+  height: 55px;
+  border: 2px solid #1a2e35;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.logo_icon img{
+  width: 55px;
+  height: 55px;
+}
+
+.logo_text{
+  font-size: 24px;
+
+}
+
+.nav_a{
+  display: flex;
+  align-items: center;
+}
+
+.navbar{
+  text-decoration: none;
+  color: #1a2e35;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar:hover{
+  color: #2d9a63;
+}
+.navbar.active:hover{
+  background-color: #4ade80;
+  color: #1a2e35;
+}
+
+.navbar.active{
+  background-color: #1a2e35;
+  color: #4ade80;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.Merch{
+  background-color: lightgoldenrodyellow;
+  color: #1f343b;
+  padding: 10px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700px;
+  box-shadow: 0 4px 0px #b89c7d;
+}
+h1,h3{
+  font-size: 30px;
+  color: white;
+}
+.hero{
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+.dino1{
+  position: absolute;
+  border: 1px solid white;
+  color: rgb(38, 150, 179);
+  background-color: #346072;
+  right: 1420px;
+  top: 190px;
+  width: 450px;
+  height: 400px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.dino2{
+  position: absolute;
+  border: 1px solid white;
+  background-color: #1d4858;
+  right: 960px;
+  top: 190px;
+  width: 450px;
+  height: 400px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.dino3{
+  background-color: #1e424e;
+  border: 1px solid white;
+  position: absolute;
+  right: 500px;
+  top: 190px;
+  width: 450px;
+  height: 400px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.dino4{
+  position: absolute;
+  border: 1px solid white;
+  background-color: #193c49;
+  right: 40px;
+  top: 190px;
+  width: 450px;
+  height: 400px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.dino1:hover {
+  background-color: rgb(100, 31, 26);
+}
+.dino2:hover {
+  background-color: rgb(100, 31, 26);
+}
+.dino3:hover {
+  background-color: rgb(100, 31, 26);
+}
+.dino4:hover {
+  background-color: rgb(100, 31, 26);
+}
+.footerlogo img{
+    padding-top: 50px;
+    padding-left: 900px;
+    width: 105px;
+    width: 105px;
+}
+.footer_container{
+    width: 1900px;
+    height: 345px;
+    background-color: #e8e4d9;
+    border-radius: 25px;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.foote h4, p{
+    font-weight: 700;
+}
